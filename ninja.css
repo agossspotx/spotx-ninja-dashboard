@@ -25,12 +25,10 @@ body {
     border: 3px;
     border-style: solid;
     border-radius: 6px;
-    background-color: grey;
     float: left;
     margin-bottom: 30px;
 }
 .box_left_titlebar {
-    background-color: black;
     height: 30px;
     color: white;
     text-align: center;
@@ -50,12 +48,10 @@ body {
     border: 3px;
     border-style: solid;
     border-radius: 6px;
-    background-color: grey;
     float: right;
     margin-bottom: 30px;
 }
 .box_right_titlebar {
-    background-color: black;
     height: 30px;
     color: white;
     text-align: center;
@@ -67,4 +63,85 @@ body {
     color: black;
     text-align: center;
     font-family: 'Anonymous Pro', monospace;
+}
+
+
+.red {
+    color: #ee3b24;
+}
+.redbackground {
+    background-color: #ee3b24;
+}
+.redbackgroundlight {
+    background-color: #f7a398;
+}
+
+.orange {
+    color: #f36c2a;
+}
+.orangebackground {
+    background-color: #f36c2a;
+}
+.orangebackgroundlight {
+    background-color: #f9ba9b;
+}
+
+.peach {
+    color: #faaa63;
+}
+.peachbackground {
+    background-color: #faaa63;
+}
+.peachbackgroundlight {
+    background-color: #fdd7b6;
+}
+
+.yellow {
+    color: #f8d7a4;
+}
+.yellowbackground {
+    background-color: #f8d7a4;
+}
+.yellowbackgroundlight {
+    background-color: #fcecd4;
+}
+
+.bluegreen {
+    color: #6bada1;
+}
+.bluegreenbackground {
+    background-color: #6bada1;
+}
+.bluegreenbackgroundlight {
+    background-color: #b9d8d3;
+}
+
+.teal {
+    color: #1190a1;
+}
+.tealbackground {
+    background-color: #1190a1;
+}
+.tealbackgroundlight {
+    background-color: #8fcbd3;
+}
+
+.blue {
+    color: #156e96;
+}
+.bluebackground {
+    background-color: #156e96;
+}
+.bluebackgroundlight {
+    background-color: #91bbce;
+}
+
+.indigo {
+    color: #17224f;
+}
+.indigobackground {
+    background-color: #17224f;
+}
+.indigobackgroundlight {
+    background-color: #9297ac;
 }
