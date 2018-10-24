@@ -30,16 +30,17 @@ body {
 }
 .box_left_titlebar {
     height: 30px;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 19px;
     font-family: 'Dosis', sans-serif;
 }
 .box_left_versionString {
-    margin-top: 6px;
+    margin-top: 9px;
     color: black;
     text-align: center;
-    font-family: 'Anonymous Pro', monospace;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
 }
 
 .box_right {
@@ -53,16 +54,17 @@ body {
 }
 .box_right_titlebar {
     height: 30px;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 19px;
     font-family: 'Dosis', sans-serif;
 }
 .box_right_versionString {
-    margin-top: 6px;
+    margin-top: 9px;
     color: black;
     text-align: center;
-    font-family: 'Anonymous Pro', monospace;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
 }
 
 
