@@ -7,7 +7,7 @@ sitedir = /Volumes/walnut_data/share/cdn/website/mobile/dashboard
 
 
 .PHONY: all
-all:    deploy
+all:    publish
 
-deploy: deploy
-        -sudo cp -r * 
+publish: publish
+	-sudo cp -r website/* $(sitedir)
