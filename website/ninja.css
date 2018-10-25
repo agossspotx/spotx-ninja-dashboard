@@ -135,6 +135,9 @@ body {
 .orange {
     color: #f36c2a;
 }
+.orangeborderlight {
+    border-color: #f9ba9b;
+}
 .orangebackground {
     background-color: #f36c2a;
 }
@@ -144,6 +147,9 @@ body {
 
 .peach {
     color: #faaa63;
+}
+.peachborderlight {
+    border-color: #fdd7b6;
 }
 .peachbackground {
     background-color: #faaa63;
@@ -155,6 +161,9 @@ body {
 .yellow {
     color: #f8d7a4;
 }
+.yellowborderlight {
+    border-color: #fcecd4;
+}
 .yellowbackground {
     background-color: #f8d7a4;
 }
@@ -164,6 +173,9 @@ body {
 
 .bluegreen {
     color: #6bada1;
+}
+.bluegreenborderlight {
+    border-color: #b9d8d3;
 }
 .bluegreenbackground {
     background-color: #6bada1;
@@ -175,6 +187,9 @@ body {
 .teal {
     color: #1190a1;
 }
+.tealborderlight {
+    border-color: #8fcbd3;
+}
 .tealbackground {
     background-color: #1190a1;
 }
@@ -185,6 +200,9 @@ body {
 .blue {
     color: #156e96;
 }
+.blueborderlight {
+    border-color: #91bbce;
+}
 .bluebackground {
     background-color: #156e96;
 }
@@ -194,6 +212,9 @@ body {
 
 .indigo {
     color: #17224f;
+}
+.indigoborderlight {
+    border-color: #9297ac;
 }
 .indigobackground {
     background-color: #17224f;
