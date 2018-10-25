@@ -60,6 +60,7 @@ body {
     height: 30px;
     color: black;
     text-align: center;
+    font-weight: bold;
     font-size: 19px;
     font-family: 'Dosis', sans-serif;
 }
@@ -67,7 +68,17 @@ body {
     margin-top: 9px;
     color: black;
     text-align: center;
+    font-weight: bold;
     font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.clear {
+    border: 0px
+}
+.column_titles {
+    text-align: center;
+    font-size: 18px;
     font-family: 'Dosis', sans-serif;
 }
 
