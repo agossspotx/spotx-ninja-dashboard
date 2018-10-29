@@ -31,7 +31,7 @@
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Ensure settings are called via cdn.spotxcdn.com and not cdn-source.</li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,10 @@
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Switch to Single Slot for Devices with limited resources.</li>
+                        <li>Eat media key events.</li>
+                        <li>Propagate skippability events to the controller.</li>
+                        <li>Fix Html Test Page for Older WebViews.</li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +58,7 @@
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Update the SdkController class: create slots sequentially.</li>
                     </ul>
                 </div>
             </div>
@@ -67,7 +70,9 @@
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Update settings_request to properly read from the platform api.</li>
+                        <li>Update sdk_controller to use the settings retured from cdn-source.spotxchange.com/settings/v4/... exclusively.</li>
+                        <li>Add enableClickThru Setting.</li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +84,7 @@
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Use HTTPS in controller requests</li>
                     </ul>
                 </div>
             </div>
@@ -91,15 +96,12 @@
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
                     <ul>
-                        <li>Modify GIT_HASH to match release conventions</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Cache the first result of <b>SdkConfig.load</b>, even if it was an error.</li>
+                        <li>Only open the clickThruURL with a call to window.open, AdClickThru will no longer open the clickThruURL.</li>
+                        <li>Properly escape html special chars in index.html.</li>
+                        <li>Add a black poster to VPAID videos, in addition to MP4.</li>
+                        <li>Don't set z-index on VPAID video.</li>
+                        <li>Modify GIT_HASH to match release conventions.</li>
                     </ul>
                 </div>
             </div>
