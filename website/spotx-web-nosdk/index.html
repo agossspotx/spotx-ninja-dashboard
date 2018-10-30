@@ -31,7 +31,7 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Return default settings when apikey length is not 32 chars.</li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Add enableClickThru Setting.</li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +55,8 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Update boolval to fitler_var b/c php version.</li>
+                        <li>Fix SettingsController.</li>
                     </ul>
                 </div>
             </div>
@@ -67,7 +68,7 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li><b>New major version</b> for the release of <b>SDK 4.0.0</b>.</li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +80,8 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Include config folder in RPM</li>
+                        <li>Added SDK v4 url and feature toggle settings endpoint.</li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +93,10 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>RPM packaging via Vagrant</li>
+                        <li>Remove <b>ln/ln_s</b> because they fail on Centos 6</li>
+                        <li>Manually untar the packaged sources in the rpmspec, Centos 6 does not handle file paths to source archives</li>
+                        <li>Update Jenkinsfile to use Vagrant for building rpm</li>
                     </ul>
                 </div>
             </div>
@@ -103,7 +108,8 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Add <b>/usr/local/bin</b> to PATH</li>
+                        <li>Force login shell</li>
                     </ul>
                 </div>
             </div>
@@ -115,7 +121,10 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Mountpoint fix.</li>
+                        <li>Rename asset install dir.</li>
+                        <li>Checking if images/videos is an nfs mount.</li>
+                        <li>Fix for mraid-READY inconsistency.</li>
                     </ul>
                 </div>
             </div>
@@ -127,7 +136,12 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Use long commit hash for RPM</li>
+                        <li>Display current commit hash in RPM description (Defaults to ENV['GIT_HASH'] to work with git-build).</li>
+                        <li>Install nosdk-assets RPM to local filesystem rather than NFS mount.</li>
+                        <li>Fail if <b>/images</b> is not an NFS mount.</li>
+                        <li>Copy assets to <b>/images</b> during post-install.</li>
+                        <li>Do NOT remove assets from <b>/images</b>.</li>
                     </ul>
                 </div>
             </div>
@@ -139,7 +153,10 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Hotfix for Android URLConnection not following redirects on protocol change.</li>
+                        <li>Use originating request's URL protocol for asset redirects.</li>
+                        <li>Fix PHP warning in StringOps when searching an empty string.</li>
+
                     </ul>
                 </div>
             </div>
@@ -151,7 +168,9 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Fail server if confcache is not found.</li>
+                        <li>X-Device-User-Agent header.</li>
+                        <li>OpenRTB <b>secure</b> parameter support.</li>
                     </ul>
                 </div>
             </div>
@@ -163,7 +182,9 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Update rpm dependencies to use SpotX Apache pkg.</li>
+                        <li>Added <b>git submodule init</b> to <b>npm install</b>.</li>
+                        <li>Update manifest to latest repo name.</li>
                     </ul>
                 </div>
             </div>
@@ -175,7 +196,7 @@
                 </div>
                 <div class="box_left_versionString package_description redborderlight">
                     <ul>
-                        <li>TODO</li>
+                        <li>Initial release of <b>spotx-web-nosdk</b>.</li>
                     </ul>
                 </div>
             </div>
