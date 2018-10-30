@@ -1,0 +1,20 @@
+DARK COLORS
+17224f
+156e96
+1190a1
+6bada1
+f8d7a4
+faaa63
+f36c2a
+ee3b24
+
+
+LIGHT COLORS
+9297ac
+91bbce
+8fcbd3
+b9d8d3
+fcecd4
+fdd7b6
+f9ba9b
+f7a398

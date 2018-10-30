@@ -1,0 +1,257 @@
+body {
+    background-image: url("images/linen_bg_tile.jpg");
+    background-repeat: repeat;
+    background-color: cccccc;
+}
+
+.main_centered {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 70px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+.color_red {
+    background-color: red;
+    color: red;
+}
+
+.rowdiv {
+    overflow: auto;
+}
+
+.box_full {
+    width: 594px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    padding-bottom: 9px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.box_left {
+    width: 240px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    padding-bottom: 9px;
+    float: left;
+    margin-bottom: 30px;
+}
+.box_left_titlebar {
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Dosis', sans-serif;
+}
+.box_left_versionString {
+    margin-top: 9px;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.box_right {
+    width: 240px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    padding-bottom: 9px;
+    float: right;
+    margin-bottom: 30px;
+}
+.box_right_titlebar {
+    height: 30px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Dosis', sans-serif;
+}
+.box_right_versionString {
+    margin-top: 9px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.package_description {
+    border: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 9px;
+    margin-right: 9px;
+    color: black;
+}
+.bold {
+    font-weight: bold;
+}
+.clear {
+    border: 0px
+}
+.column_titles_center {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+}
+.column_titles_left {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+}
+.column_titles_right {
+    float: right;
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.red {
+    color: #ee3b24;
+}
+.redborderlight {
+    border-color: #f7a398;
+}
+.redbackground {
+    background-color: #ee3b24;
+}
+.redbackgroundlight {
+    background-color: #f7a398;
+}
+
+.orange {
+    color: #f36c2a;
+}
+.orangeborderlight {
+    border-color: #f9ba9b;
+}
+.orangebackground {
+    background-color: #f36c2a;
+}
+.orangebackgroundlight {
+    background-color: #f9ba9b;
+}
+
+.peach {
+    color: #faaa63;
+}
+.peachborderlight {
+    border-color: #fdd7b6;
+}
+.peachbackground {
+    background-color: #faaa63;
+}
+.peachbackgroundlight {
+    background-color: #fdd7b6;
+}
+
+.yellow {
+    color: #f8d7a4;
+}
+.yellowborderlight {
+    border-color: #fcecd4;
+}
+.yellowbackground {
+    background-color: #f8d7a4;
+}
+.yellowbackgroundlight {
+    background-color: #fcecd4;
+}
+
+.bluegreen {
+    color: #6bada1;
+}
+.bluegreenborderlight {
+    border-color: #b9d8d3;
+}
+.bluegreenbackground {
+    background-color: #6bada1;
+}
+.bluegreenbackgroundlight {
+    background-color: #b9d8d3;
+}
+
+.teal {
+    color: #1190a1;
+}
+.tealborderlight {
+    border-color: #8fcbd3;
+}
+.tealbackground {
+    background-color: #1190a1;
+}
+.tealbackgroundlight {
+    background-color: #8fcbd3;
+}
+
+.blue {
+    color: #156e96;
+}
+.blueborderlight {
+    border-color: #91bbce;
+}
+.bluebackground {
+    background-color: #156e96;
+}
+.bluebackgroundlight {
+    background-color: #91bbce;
+}
+
+.indigo {
+    color: #17224f;
+}
+.indigoborderlight {
+    border-color: #9297ac;
+}
+.indigobackground {
+    background-color: #17224f;
+}
+.indigobackgroundlight {
+    background-color: #9297ac;
+}
+
+
+
+
+
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1b9dd0;
+}
+
+/* selected link */
+a:active {
+    color: #1f4389;
+}
