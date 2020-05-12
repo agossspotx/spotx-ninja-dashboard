@@ -41,6 +41,23 @@
             <div class="box_full orange orangebackgroundlight bold">
                 <div class="box_left_titlebar orangebackground">spotx-nosdk-controller</div>
                 <div class="box_left_versionString">
+                    1.7.2
+                </div>
+                <div class="box_left_versionString package_description orangeborderlight">
+                    <ul>
+                        <li>Update to OM SDK version 1.3.3.</li>
+                        <li>VideoEvents are now MediaEvents.</li>
+                        <li>"loaded" is now an AdEvents method and requires a new VastProperties object.</li>
+                        <li>Due to security changes in the SDK, OmidSessionClient needs to be included at the top level rather than the iframe level, and iframes need to access it there.</li>
+                        <li>Removed circular dependency between Omid and OmidEvent by refactoring the OMSDK objects into an OmidSessionClient class. Typescript doesn't play nicely with circular dependencies.</li>
+                        <li>Because Omid session objects are now fetched dynamically, OmidSlotMessage.init is no longer needed, and has been removed.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box_full orange orangebackgroundlight">
+                <div class="box_left_titlebar orangebackground">spotx-nosdk-controller</div>
+                <div class="box_left_versionString">
                     1.7.1
                 </div>
                 <div class="box_left_versionString package_description orangeborderlight">
